@@ -4,6 +4,7 @@ import discord
 from discord import app_commands
 from dotenv import load_dotenv
 import os
+load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True
 
